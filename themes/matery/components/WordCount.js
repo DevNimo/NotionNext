@@ -12,13 +12,13 @@ export default function WordCount() {
   return <span id='wordCountWrapper' className='flex gap-3 font-light'>
         <span className='flex whitespace-nowrap items-center'>
             <i className='pl-1 pr-2 fas fa-file-word' />
-            <span>文章字数</span>&nbsp;
+            <span>단어 수</span>&nbsp;
             <span id='wordCount'>0</span>
         </span>
         <span className='flex whitespace-nowrap items-center'>
             <i className='mr-1 fas fa-clock' />
-            <span>阅读时长:</span>
-            <span id='readTime'>0</span>分钟
+            <span>독서 시간:</span>
+            <span id='readTime'>0</span>분
         </span>
     </span>
 }
